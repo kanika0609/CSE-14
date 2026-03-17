@@ -5,8 +5,7 @@ function calculateResult(){
         let marks=parseFloat(prompt("Enter no of subject"+i))
         total=total+marks;
     }
-    let average=Number;
-    average=total/n;
+    let average=total/n;
     let grade;
     let result;
     if (average>=90){
