@@ -20,8 +20,9 @@ function App() {
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
-        </div> 
+        </div>
         <button
+          type="button"
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
@@ -48,7 +49,7 @@ function App() {
             <li>
               <a href="https://react.dev/" target="_blank">
                 <img className="button-icon" src={reactLogo} alt="" />
-                Learn more 
+                Learn more
               </a>
             </li>
           </ul>
